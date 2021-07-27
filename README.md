@@ -14,9 +14,9 @@ ___
 - 
 
 ### Usage
-- After you installing the dependencies the application can be run `node server.js`
+- 
 - You can follow the video bellow:[Video link]()
-- Also you can find [deployed link](https://powerful-plains-65097.herokuapp.com/)
+- Also you can find [deployed link]()
 
 ### Contribution
 - 

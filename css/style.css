@@ -36,25 +36,93 @@
     background-color: #111;
 }
 
-/* container */
+/* main container */
 
 .main-container {
-    background-color: aqua;
-    padding-left: 10%;
+    background-color: #f3f2ee;
+    padding: 1% 10% 2% 10%;
 }
 
-.container .about-container {
+/* home container */
+
+.main-container .home-container .header {
+    text-align: center;
+}
+
+.main-container .home-container .grid-container {
     display: grid;
-    
-    
+    grid-template-columns: 20% 50% 30%;
 }
 
-.container .about-container .left-col {
-    float: left;
+.main-container .home-container .left-col {
+    text-align: justify;
+    background-color: aqua;
+    padding: 2% 30% 2% 10%;
 }
 
-.container .about-container .right-col {
-    float: left;
+.main-container .home-container .center-col {
+    text-align: justify;
+    background-color: yellowgreen;
+    padding: 2% 30% 2% 10%;
+}
+
+.main-container .home-container .right-col {
+    text-align: justify;
+    background-color: blanchedalmond;
+    padding: 3% 10% 3% 10%;
+}
+
+/* about container */
+
+.main-container .about-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.main-container .about-container .left-col {
+    text-align: justify;
+    background-color: aqua;
+    padding: 2% 30% 2% 10%;
+}
+
+.main-container .about-container .right-col {
+    text-align: justify;
+    background-color: blanchedalmond;
+    padding: 3% 10% 3% 10%;
+}
+
+/* resume container */
+
+.main-container .resume-container {
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 3% 10% 5% 10%;
+}
+
+.main-container .portfolio-container {
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.main-container .portfolio-container .left-col {
+    text-align: justify;
+    background-color: aqua;
+    padding: 2% 30% 2% 10%;
+}
+
+.main-container .portfolio-container .right-col {
+    text-align: justify;
+    background-color: blanchedalmond;
+    padding: 3% 10% 3% 10%;
+}
+
+/* contact container */
+
+.main-container .contact-container {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 3% 10% 5% 10%;
 }
 
 /* footer */

@@ -1,23 +1,47 @@
 <div class="about-container">
 
     <div class="left-col">
-        <ul>
-            <li><a href="">first link</a></li>
-            <li><a href="">second link</a></li>
-            <li><a href="">third link</a></li>
-        </ul>
+
+        <button><a href="">About me one</a></button> <br>
+        <button><a href="">About me two</a></button><br>
+        <button> <a href="">About me three</a></button><br>
+
     </div>
     <div class="right-col">
         <div class="row">
-            <p>paragraph one</p>
+            <h3>About me one</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque voluptatum,
+                animi non perferendis alias voluptate nesciunt minima recusandae impedit perspiciatis
+                delectus porro sequi neque pariatur veniam officia quis aspernatur maxime!
+            </p>
         </div>
+        <br>
         <div class="row">
-            <p>paragraph two</p>
+            <h3>About me two</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque voluptatum,
+                animi non perferendis alias voluptate nesciunt minima recusandae impedit perspiciatis
+                delectus porro sequi neque pariatur veniam officia quis aspernatur maxime!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque voluptatum,
+                animi non perferendis alias voluptate nesciunt minima recusandae impedit perspiciatis
+                delectus porro sequi neque pariatur veniam officia quis aspernatur maxime!
+            </p>
         </div>
+        <br>
         <div class="row">
-            <p>paragraph three</p>
+            <h3>About me three</h3>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque voluptatum,
+                animi non perferendis alias voluptate nesciunt minima recusandae impedit perspiciatis
+                delectus porro sequi neque pariatur veniam officia quis aspernatur maxime!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque voluptatum,
+                animi non perferendis alias voluptate nesciunt minima recusandae impedit perspiciatis
+                delectus porro sequi neque pariatur veniam officia quis aspernatur maxime!
+            </p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque voluptatum,
+                animi non perferendis alias voluptate nesciunt minima recusandae impedit perspiciatis
+                delectus porro sequi neque pariatur veniam officia quis aspernatur maxime!
+            </p>
         </div>
-
-
     </div>
 </div>
