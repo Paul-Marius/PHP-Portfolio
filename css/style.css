@@ -128,10 +128,41 @@
 /* footer */
 
 .footer {
-    text-align: center;
-    width: 100%;
     /* color white */
     color: #ffffff;
     /* background-color sort of black */
     background-color: #282a30;
+}
+
+.footer .footer-container {
+    text-align: center;
+    width: 100%;
+}
+
+.footer .footer-container .b-header {
+    text-align: center;
+    padding: 0% 0% 1% 0%;
+}
+
+.footer .footer-container .grid-container {
+    display: grid;
+    grid-template-columns: 30% 40% 30%;
+}
+
+.footer .footer-container .grid-container .left-col {
+    text-align: center;
+    float: left;
+    padding: 2% 0% 2% 0%;
+}
+
+.footer .footer-container .grid-container .center-col {
+    text-align: center;
+    float: left;
+    padding: 2% 0% 2% 0%;
+}
+
+.footer .footer-container .grid-container .right-col {
+    text-align: center;
+    float: right;
+    padding: 2% 0% 2% 0%;
 }
