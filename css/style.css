@@ -11,6 +11,7 @@
 .navbar {
     background-color: #282a30;
     width: 100%;
+    position: fixed;  
 }
 
 .navbar ul {
@@ -40,13 +41,15 @@
 
 .main-container {
     background-color: #f3f2ee;
-    padding: 1% 10% 2% 10%;
+    padding: 5% 10% 2% 10%;
+    /* margin-top: auto; */
 }
 
 /* home container */
 
 .main-container .home-container .header {
     text-align: center;
+    /* margin-top: 20px; */
 }
 
 .main-container .home-container .grid-container {

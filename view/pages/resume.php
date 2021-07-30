@@ -9,7 +9,7 @@
 
 // if (isset($_POST['view'])) {
 
-//     $pdffilename = '../../assets/Paul-Besliu-Resume.pdf';
+//     $pdffilename = '/../../assets/Paul-Besliu-Resume.pdf';
 //     header('Content-type: application/pdf');
 //     header('Content-Disposition: inline; filename="' . $pdffilename . '"');
 //     header('Content-Transfer-Encoding: binary');
@@ -48,39 +48,59 @@
 // }
 
 
-if (isset($_POST['view'])) {
-    $pdffilename1 = '../../assets/Paul-Besliu-Resume.pdf';
-    $fileDir = __DIR__ . "/" . $pdffilename1;
+// if (isset($_POST['view'])) {
+//     $pdffilename1 = '/../../assets/Paul-Besliu-Resume.pdf';
+//     $fileDir = __DIR__ . $pdffilename1;
 
-    // header("Content-type:application/pdf");
-    // header('Content-Disposition: inline; filename="' . $pdffilename2 . '"');
-    // header('Content-Transfer-Encoding: binary');
-    // header('Accept-Ranges: bytes');
-    // ob_clean();
-    // flush();
-    // readfile($pdffilename1);
-    var_dump(__DIR__ . "/" . $pdffilename1);
-    var_dump(file_exists(__DIR__ . "/" . $pdffilename1));
-    die;
+//     header("Content-type:application/pdf");
+//     header('Content-Disposition: inline; filename="' . $pdffilename2 . '"');
+//     header('Content-Transfer-Encoding: binary');
+//     header('Accept-Ranges: bytes');
+//     ob_clean();
+//     flush();
+//     readfile($pdffilename1);
+//     var_dump(__DIR__ . "/" . $pdffilename1);
+//     var_dump(file_exists(__DIR__ . "/" . $pdffilename1));
+//     die;
+// }
+// $pdffilename1 = '/assets/Paul-Besliu-Resume.pdf';
+// $fileDir = __DIR__ . $pdffilename1;
+// var_dump(__DIR__);
+// die;
+// var_dump($fileDir);
+// var_dump(file_exists($fileDir));
+// var_dump(mime_content_type($fileDir));
+// die;
+
+?>
+
+<?php
+
+
+if (isset($_GET['filedir'])) {
+
+    $page = $_GET['filedir'];
+    $filename = $page . '.php';
+
+    if (file_exists($filename)) {
+        include $filename;
+    } else {
+        include "resume.php";
+    }
 }
-$pdffilename1 = '../../assets/Paul-Besliu-Resume.pdf';
-$fileDir = __DIR__ . "/" . $pdffilename1;
 
 ?>
 
 
 <div class="resume-container">
 
-
-    <button><a href="<?php echo $fileDir ?>   ">download resume</a></button>
-
     <div class="main-col">
         <h2>You can discover my Resume below.</h2>
         <br>
         <h3>When you click Resume to pop up resume</h3>
 
-        <form action="" method="POST">
-            <button name="view">View file PDF</button>
+        <form action="" method="GET">
+            <button name="filedir"><a href="?page=filedir">View file PDF</a></button>
         </form>
 
         <br>

@@ -13,6 +13,15 @@
             <h3 id="about-one">
                 About me one
             </h3>
+
+
+            <picture>
+                <source media="(min-width: 465px)" srcset="../../assets/paulbesliu.jpg">
+                <img src="">
+            </picture>
+            <img src="../../assets/paulbesliu.jpg" alt="Paul Besliu Portret" width="" height="">
+
+
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eaque voluptatum,
                 animi non perferendis alias voluptate nesciunt minima recusandae impedit perspiciatis
                 delectus porro sequi neque pariatur veniam officia quis aspernatur maxime!
